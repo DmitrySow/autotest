@@ -18,5 +18,5 @@ test('Open Google', async ({ page }) => {
   const searchBottomOfSearch = page.locator('input[name="btnK"]').first();
   await searchBottomOfSearch.click();
 
-  console.log('Title:', await page.title());
+  console.log('Title:', await page.title()); // тестовый коммент
 });
